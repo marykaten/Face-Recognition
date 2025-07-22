@@ -4,7 +4,7 @@ import face_recognition
 
 imgZendaya = face_recognition.load_image_file('Images/Zendaya.jpg')
 imgZendaya = cv2.cvtColor(imgZendaya, cv2.COLOR_BGR2RGB)
-imgTest = face_recognition.load_image_file('Images/Zendaya_test.jpg')
+imgTest = face_recognition.load_image_file('Images/Dwayne.jpg')
 imgTest = cv2.cvtColor(imgTest, cv2.COLOR_BGR2RGB)
 
 faceLocation = face_recognition.face_locations(imgZendaya)[0]
