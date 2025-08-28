@@ -35,19 +35,22 @@ project-folder/
 - System detects and identifies individuals in real-time.
 - Matches found are logged in `Attendance.csv` with a timestamp.
 
+---
+
 ## How to Run
 1. **Clone the repository**
 ```bash
 git clone https://github.com/marykaten/facial-recognition-attendance.git
 cd facial-recognition-attendance
+
 2. Install dependencies
-bash
 pip install opencv-python face_recognition numpy
+
 3. Add face images
 Place JPG or PNG images of known individuals in the Images/ folder. The filename (excluding extension) will be used as the person's name.
 4. Run the script
-bash
 python face_recognition.py
+
 5. View results
 - Real-time video feed will display recognized faces.
 - Attendance is saved in Attendance.csv.
