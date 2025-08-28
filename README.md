@@ -48,6 +48,7 @@ pip install opencv-python face_recognition numpy
 
 3. Add face images
 Place JPG or PNG images of known individuals in the Images/ folder. The filename (excluding extension) will be used as the person's name.
+
 4. Run the script
 python face_recognition.py
 
