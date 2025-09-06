@@ -20,12 +20,12 @@ A **Python-based facial recognition system** that detects and identifies faces f
 - OS, DateTime
  
 ## Project Structure
+```text
 project-folder/
-│
-├── Images/ # Folder with known face images (e.g., Zendaya.jpg)
-├── Attendance.csv # CSV file to log attendance
-├── face_recognition.py # Core script for facial recognition and attendance
-└── README.md # Project documentation
+├── Images/              # Folder with known face images (e.g., Zendaya.jpg)
+├── Attendance.csv       # CSV file to log attendance
+├── face_recognition.py  # Core script for facial recognition and attendance
+└── README.md            # Project documentation
 
 ---
 
